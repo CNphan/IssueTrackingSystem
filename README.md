@@ -61,7 +61,7 @@ Fron-End technologies -- In progress
  - W3School | http://www.w3schools.com/css/default.asp
  - TutorialPoint | http://www.tutorialspoint.com/css/
  
-**JavaScript **
+**JavaScript**
 - W3School | http://www.w3schools.com/js/default.asp
 - TutorialPoint | http://www.tutorialspoint.com/javascript/
 
@@ -74,6 +74,7 @@ Fron-End technologies -- In progress
 - Get Boostrap | http://getbootstrap.com/ 
 - W3School | http://www.w3schools.com/bootstrap/default.asp
 - TutorialPoint | http://www.tutorialspoint.com/bootstrap/
+
 ####Back-End System
 Backend development is under construction - I am still thinking about what system to use. Most likely, it will be Node.js and either MySQL or MongoDB
 
