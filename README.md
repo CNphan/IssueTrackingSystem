@@ -45,6 +45,18 @@ Editable Form with similar inputs as Screen 2
 * System automatically sends e-mail to Creator & Assignee of that specific defect each time there is a change in that ticket
 * Projects must exist before creating a ticket 
 
+## Installation Guide##
+
+----------
+* Make sure you have node.js installd | https://nodejs.org/en/
+* I used http-server for this project | https://www.npmjs.com/package/http-server
+* Git Clone the project 
+* Open the terminal or any command line tool -- Refer to the [Command Line Section](**Command Line**)
+* Go to the local directory of the cloned project 
+* Type in : node bin/http-server 
+* Your project should work 
+
+
 ## Environment##
 
 ----------
