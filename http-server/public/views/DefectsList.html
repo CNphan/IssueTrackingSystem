@@ -1,22 +1,121 @@
-<!DOCTYPE html>
-<html>
-	<script src="http://www.w3schools.com/lib/w3data.js"></script>
-	<div w3-include-html="config.html"></div>
-<body>
-<!--Only appears upon login : 2nd release-->
+<script src="js/functions.js"></script>
 
-<div w3-include-html="header.html"></div>
+<h1 class = "jumbotron text-center">List Of Defects</h1>
+
+<form class="form-inline text-center">
+  <div class="form-group">
+    <div class="input-group">
+		<span class="input-group-addon" id="basic-addon1">Search</span>
+		<input type="text" id ="search" class="form-control" placeholder="Searching for..." aria-describedby="basic-addon1">
+	</div>
+  </div>
+  <div class="form-group">
+    <label for="select">Select</label>
+    <select class ="form-control">
+		<option>All Defects</option>
+		<option>Open Defects</option>
+		<option>Closed Defects</option>
+	</select>
+  </div>
+ </form>
+
+
+<!--Display List of Defects-->
 <br></br>
-<div class = "container">
-	<h1 class = "jumbotron text-center">List Of Defects</h1>
-</div>
+	<table class ="table table-hover">
+		<thead class ="text-center">
+			<tr>
+				<th>Defect Name</th>
+				<th>Defect Summary</th>
+				<th>Assignee</th>
+				<th>Edit Task</th>
+			</tr>
+		</thead>
+		<tbody class ="text-left" id ="tbody">
+			<tr>
+				<td>AP-1</td>
+				<td>Fix windows...</td>
+				<td>cp@its.com</td>
+				<td><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editDefect">Edit</button></td>
+			</tr>
+			<tr>
+				<td>CP-2</td>
+				<td>Reassigned...</td>
+				<td>jo@its.com</td>
+				<td><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editDefect">Edit</button></td>
+			</tr>
+			<tr>
+				<td>CP-1</td>
+				<td>Pops up...</td>
+				<td>sj@its.com</td>
+				<td><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editDefect">Edit</button></td>
+			</tr>
+			<tr>
+				<td>CP-1</td>
+				<td>Test...</td>
+				<td>jc@its.com</td>
+				<td><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editDefect">Edit</button></td>
+			</tr>
+		</tbody>
+	</table>
 
-<!--Defects Table Here-->
-<!--Defects Form Here -->
 
+<!-- Modal -->
+  <div class="modal fade" id="editDefect" role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">{Project Name}</h3>
+          <h4 class="modal-title">{Project Id} : {Summary}</h4>
+          <h5 class="modal-title">{Date Created: xx/xx/xxxx}}</h5>
+        </div>
+        <div class="modal-body">
+            <form>
+            
+            <div class="form-group">
+                <label for="status">Status : </label>
+                <select class ="form-control">
+                  <option>Open</option>
+                  <option>In Progress</option>
+                  <option>Done</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="priority">Priority : </label>
+                <select class ="form-control">
+                  <option>Minor</option>
+                  <option>Major</option>
+                  <option>Critical</option>
+                  <option>Blocker</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="assignee">Assignee : </label>
+                <select class ="form-control">
+                  <option>Member 1</option>
+                  <option>Member 2</option>
+                  <option>Member 3</option>
+                  <option>Member 4</option>
+                </select>
+            </div>
+            <div class ="form-group">
+              <label for="description">Description: </label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <hr>
+            <hr>
+            <div class ="form-group">
+              <label for="comment">Comments: </label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      	</div>
+      </div>
+    </div>
+  </div>
 
-<div w3-include-html="footer.html"></div>
-<!--Script must be at the bottom-->
-<script>w3IncludeHTML();</script>
-</body>
-</html>
