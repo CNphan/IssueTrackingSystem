@@ -5,12 +5,12 @@
 [Installation Guide](#install)
 
 
-##Introduction{#intro}
+##Introduction {#intro}
 
 ----------
 This is a personal project that I am working on. It is an issue tracking system that allows managers to manage the status of a task. 
 
-## Requirements{#req}
+## Requirements {#req}
 
 ----------
 
@@ -48,7 +48,7 @@ Editable Form with similar inputs as Screen 2
 * System automatically sends e-mail to Creator & Assignee of that specific defect each time there is a change in that ticket
 * Projects must exist before creating a ticket 
 
-## Installation Guide{#install}
+## Installation Guide {#install}
 
 ----------
 * Make sure you have node.js installed | https://nodejs.org/en/
