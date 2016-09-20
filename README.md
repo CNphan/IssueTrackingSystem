@@ -1,7 +1,11 @@
 
 **Table Of Contents**
+[Introduction](#Introduction)
+[Installation Guide](#Installation Guide)
+[Environment](#Environment)
+[Data Models](#Data Models)
 
-[toc]
+
 ##Introduction##
 
 ----------
@@ -48,10 +52,10 @@ Editable Form with similar inputs as Screen 2
 ## Installation Guide##
 
 ----------
-* Make sure you have node.js installd | https://nodejs.org/en/
+* Make sure you have node.js installed | https://nodejs.org/en/
 * I used http-server for this project | https://www.npmjs.com/package/http-server
 * Git Clone the project 
-* Open the terminal or any command line tool -- Refer to the [Command Line Section](**Command Line**)
+* Open the terminal or any command line tool -- Refer to the [Command Line Section](#Command Line)
 * Go to the local directory of the cloned project 
 * Type in : node bin/http-server 
 * Your project should work 
