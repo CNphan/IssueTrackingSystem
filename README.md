@@ -1,16 +1,14 @@
 
 **Table Of Contents**
-[Introduction](#intro)
-[Requirements](#req)
-[Installation Guide](#install)
+[TOC]
 
 
-##Introduction {#intro}
+##Introduction
 
 ----------
 This is a personal project that I am working on. It is an issue tracking system that allows managers to manage the status of a task. 
 
-## Requirements {#req}
+## Requirements 
 
 ----------
 
