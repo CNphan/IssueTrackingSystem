@@ -1,9 +1,6 @@
 
 **Table Of Contents**
-[Introduction](##Introduction)
-[Installation Guide](##Installation Guide)
-[Environment](##Environment)
-[Data Models](##Data Models)
+[Requirements](#req)
 
 
 ##Introduction##
@@ -11,7 +8,7 @@
 ----------
 This is a personal project that I am working on. It is an issue tracking system that allows managers to manage the status of a task. 
 
-## Requirements##
+## Requirements##{#req}
 
 ----------
 
